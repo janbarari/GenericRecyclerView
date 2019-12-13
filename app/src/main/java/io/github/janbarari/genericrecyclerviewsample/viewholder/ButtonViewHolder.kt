@@ -10,6 +10,7 @@ class ButtonViewHolder(private val itemView: View, private val listener: Generic
 
     override fun bind(dataModel: GenericViewModel) {
         val data: ButtonViewModel = dataModel as ButtonViewModel
-        //..
+        //for invoke event use the listener
+        //listener.onClick(Any?)
     }
 }

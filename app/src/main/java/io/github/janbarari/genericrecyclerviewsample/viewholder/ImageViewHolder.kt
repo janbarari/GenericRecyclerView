@@ -10,6 +10,7 @@ class ImageViewHolder(private val itemView: View, private val listener: GenericU
 
     override fun bind(dataModel: GenericViewModel) {
         val data: ImageViewModel = dataModel as ImageViewModel
-        //..
+        //for invoke event use the listener
+        //listener.onClick(Any?)
     }
 }

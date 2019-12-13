@@ -10,6 +10,7 @@ class TextViewHolder(private val itemView: View, private val listener: GenericUr
 
     override fun bind(dataModel: GenericViewModel) {
         val data: TextViewModel = dataModel as TextViewModel
-        //..
+        //for invoke event use the listener
+        //listener.onClick(Any?)
     }
 }
