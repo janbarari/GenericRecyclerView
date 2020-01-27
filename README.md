@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/janbarari/GenericRecyclerView.svg)](https://jitpack.io/#janbarari/GenericRecyclerView)
 
 ![](demo.gif)
-
+With this library you only focus on your list item's, creating a recyclerview with multiple view is not easy, so you can trust this library.
 GenericRecyclerView is a smart light-weight recyclerview and adapter to simplify working with multiple view's in list and load more feature
 
   - Lazy load feature
