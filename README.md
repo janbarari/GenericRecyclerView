@@ -77,6 +77,11 @@ genericRecyclerView.setLoadMoreListener(object: GenericRecyclerView.GenericRecyc
 })
 ```
 
+### Proguard-rule Configuration
+```Gradle
+-keepclasseswithmembers class * extends io.github.janbarari.genericrecyclerview.viewholder.GenericViewHolder { *; }
+-keepclasseswithmembers class io.github.janbarari.genericrecyclerview.* { *; }
+```
 
 ### If you like it, please tap the Star(⭐️) button 
 
